@@ -282,17 +282,7 @@ const data = [
   },
 ];
 
-/* {
-  id: 1,
-  ques: 'The National Game of India is _____',
-  correctAns: 'Hockey',
-  incorrectAns: ['Cricket', 'Volleyball', 'Tenis'],
-}, 
-How many players are there on each side in a baseball match?
-A. 5
-B. 7
-C. 9
-D. 11
-*/
+
+
 
 export default data;
