@@ -1,0 +1,157 @@
+body {
+  background-color: #fff7fa;
+}
+
+/*
+2e1a35 dark
+ff5975 pink
+fff7fa light
+fedada peach
+*/
+
+.btn {
+  background-color: #fedada;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  font-family: cursive;
+  letter-spacing: 0.2rem;
+  color: #2e1a35;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 9px #d6a7a7;
+}
+
+.btn button {
+  background-color: #ff5975;
+  color: #fff7fa;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-family: cursive;
+  font-size: 20px;
+  margin: 2rem;
+  box-shadow: 0px 5px 2px #a72439;
+}
+
+.btn button:hover {
+  box-shadow: 0px 5px 2px #a72439 inset;
+  transform: translateY(5px);
+}
+
+.category {
+  font-family: cursive;
+  color: #2e1a35;
+  margin: 2rem;
+}
+.category .quitbutton {
+  float: right;
+}
+.category .catList {
+  display: inline;
+}
+
+.category .catList button,
+.nextbutton {
+  background-color: #ff5975;
+  color: #fff7fa;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.6rem;
+  font-family: cursive;
+  font-size: 20px;
+  margin: 0.25rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 2px #a72439;
+}
+
+.nextbutton {
+  position: sticky;
+}
+
+.category .catList button:hover,
+.category .catList button:focus,
+.nextbutton:hover {
+  box-shadow: 0px 5px 2px #a72439 inset;
+  transform: translateY(5px);
+}
+
+.quiz {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.quiz .ques {
+  background-color: #fedada;
+  text-align: center;
+  padding: 20px;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 3px 9px #b18484;
+}
+
+.ques h4 {
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.ques ul {
+  margin-top: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul li button,
+.none {
+  font-family: cursive;
+  background: none;
+  font-size: 18px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  width: 80%;
+  color: #2e1a35;
+  border: 2px solid #fff7fa;
+}
+
+ul li button:hover,
+ul li button:focus {
+  width: 82%;
+  transition: 0.2s ease-in-out;
+}
+
+.green-btn {
+  content: '\f00c';
+  place-content: left;
+  border: 1px solid green;
+
+  background-color: rgba(144, 255, 144, 0.445);
+}
+
+.red-btn {
+  border: 1px solid red;
+  background-color: rgba(255, 104, 104, 0.445);
+}
+
+ul li button:disabled {
+  color: rgb(83, 83, 83);
+}
+
+table {
+  text-align: left;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+tr {
+  border: 1px solid gray;
+  padding: 2px;
+}
